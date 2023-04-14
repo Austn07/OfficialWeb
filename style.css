@@ -5,18 +5,6 @@
 	  padding: 20px;
 	  text-align: center;
 	}
-	 * {
-        padding: 0;
-        margin: 0;
-      }
-	canvas { /*canvas info*/
-      background-color: black;
-	  border-color: #C4FFFD;
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin: 0 auto;
-	}
 	
 	h1{color: #C4FFFD;
       animation: mymove2 4s infinite;}
@@ -42,68 +30,47 @@
 		  width: 450px;
 		  height: 75px;
 	}
-	aside {
-		padding-left: 50px;
-		margin-left: 15px;
-		float: right;
-		font-style: italic;
-	}
-    .mariorun {
-	  position: relative;
-	  width: 100%;
-	  height: 100%;
-	  position: absolute;
-	  top: 5;
-	  animation: move-right 10s steps(1000) infinite;
-	}
-	@keyframes move-right {
-	  0% {
-		transform: translateX(0);
-	  }
-	  100% {
-		transform: translateX(100%);
-	  }
-	}
+
 	body {
     padding: 0;
     margin: 0;
     background: #760E17;
-}
+	}
 
-* {
-  box-sizing: border-box;
-}
+	* {
+	  box-sizing: border-box;
+	}
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #290A10;
-  border: 5px solid #8CFFFB;
-}
+	/* Style the top navigation bar */
+	.topnav {
+	  overflow: hidden;
+	  background-color: #290A10;
+	  border: 5px solid #8CFFFB;
+	}
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #8CFFFB;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+	/* Style the topnav links */
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #8CFFFB;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #8CFFFB;
-  color: #290A10;
-}
+	/* Change color on hover */
+	.topnav a:hover {
+	  background-color: #8CFFFB;
+	  color: #290A10;
+	}
 
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
+	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+	  .topnav a {
+		float: none;
+		width: 100%;
+	  }
+	}
 
 
 </style><!--End of style-->
