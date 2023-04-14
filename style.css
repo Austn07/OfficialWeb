@@ -1,9 +1,36 @@
 <style> /*(start of style) Characteristics for elements below*/
 	 /* Style the header */
+	* {
+	  box-sizing: border-box;
+	}
 	.header {
-	  background-color: #f1f1f1;
+	  background-color: #760E17;
 	  padding: 20px;
 	  text-align: center;
+	}
+
+	/* Create three unequal columns that floats next to each other */
+	.column {
+	  float: left;
+	  padding: 10px;
+	}
+
+	/* Left and right column */
+	.column.side {
+	  width: 25%;
+	  background: #290A10;
+	}
+
+	/* Middle column */
+	.column.middle {
+	  width: 50%;
+	}
+	
+	/* Clear floats after the columns */
+	.row::after {
+	  content: "";
+	  display: table;
+	  clear: both;
 	}
 	
 	h1{color: #C4FFFD;
@@ -34,11 +61,7 @@
 	body {
     padding: 0;
     margin: 0;
-    background: #760E17;
-	}
-
-	* {
-	  box-sizing: border-box;
+    background: #A91521;
 	}
 
 	/* Style the top navigation bar */
