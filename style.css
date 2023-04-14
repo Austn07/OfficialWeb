@@ -1,9 +1,15 @@
-<style> <!--(start of style) Characteristics for elements below-->
+<style> /*(start of style) Characteristics for elements below*/
+	 /* Style the header */
+	.header {
+	  background-color: #f1f1f1;
+	  padding: 20px;
+	  text-align: center;
+	}
 	 * {
         padding: 0;
         margin: 0;
       }
-	canvas {
+	canvas { /*canvas info*/
       background-color: black;
 	  border-color: #C4FFFD;
 	  display: block;
@@ -99,12 +105,6 @@
   }
 }
 
-.header {
-    background-image: url('https://64.media.tumblr.com/2f8718807b581ae6bef69b8bc6b9e2ea/tumblr_py484hOpBB1umsmpio1_540.gifv');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
 .overlay {
     position: absolute;
     min-height: 100%;
